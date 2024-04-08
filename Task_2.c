@@ -47,6 +47,8 @@ void delete_tree(struct node** treePtr);
 int main() {
 	int temp = 0;
 	struct node* treePtr = NULL;
+
+	
     printf("Enter the value of the new data member: ");
 	scanf("%d", &temp);
     while (temp > 0)
